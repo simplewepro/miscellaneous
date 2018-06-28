@@ -1,0 +1,35 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.tabSize": 2,
+  "prettier.disableLanguages": ["js"],
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "files.autoSave": "onFocusChange",
+  "window.zoomLevel": 0,
+  "[javascriptreact]": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/web/node_modules": true,
+    "**/web/build": true,
+    "**/admin/node_modules": true
+  },
+  "material-icon-theme.folders.theme": "classic",
+  "materialTheme.fixIconsRunning": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
